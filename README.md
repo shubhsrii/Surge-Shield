@@ -1,5 +1,36 @@
 PPT Template - https://docs.google.com/presentation/d/1eW-KOHygsNI6Qn4Pxpr4KJYJ3ArdGZvzsNoqaLt_i2o/edit?usp=sharing
 
+
+Backend setup:
+
+pip install -r requirements.txt
+
+cd backend
+
+uvicorn main:app --reload --port 8000
+
+Backend runs at: http://127.0.0.1:8000
+
+Frontend setup:
+
+cd frontend
+
+npm install
+
+npm run dev
+
+UI runs at: http://localhost:3000
+
+
+backend.env 
+MONGO_URL=mongodb://localhost:27017
+MONGO_DB_NAME=surge_shield
+
+OPENWEATHER_API_KEY=8ed8d5f0971eff27761a37694fb2402d
+HOSPITAL_LAT=28.6139
+HOSPITAL_LON=77.2090
+
+
 SurgeShield
 
 AI-driven hospital surge forecasting and autonomous operational response system.
