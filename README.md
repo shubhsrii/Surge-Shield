@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PPT Template - https://docs.google.com/presentation/d/1eW-KOHygsNI6Qn4Pxpr4KJYJ3ArdGZvzsNoqaLt_i2o/edit?usp=sharing
 
-## Getting Started
+SurgeShield
 
-First, run the development server:
+AI-driven hospital surge forecasting and autonomous operational response system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SurgeShield is designed to help hospitals prepare for patient surges caused by festivals, pollution spikes, seasonal respiratory waves, or epidemic outbreaks. The system predicts upcoming admission loads using a hybrid machine learning pipeline and automatically generates operational response plans for staffing, supplies, bed allocation and patient advisories.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was built end-to-end within a constrained execution window for hackathon demonstration purposes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Key Capabilities
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Forecasts patient admissions 7–30 days ahead based on historical patterns, pollution trends and event-based risk factors.
 
-## Learn More
+Uses a hybrid model combining:
 
-To learn more about Next.js, take a look at the following resources:
+Time-series learning for baseline volume prediction.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gradient-boosting based risk uplift modelling for event-based surge impact.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Automatically generates recommendations across four domains:
 
-## Deploy on Vercel
+Staff allocation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Medical supply inventory planning
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bed and ICU capacity preparation
+
+Patient advisory generation
+
+Maintains a full operational audit log of alerts and AI-triggered actions.
+
+Presents forecasts, department-wise load distribution, AQI correlation, insights and surge risk indicators via a web interface.
