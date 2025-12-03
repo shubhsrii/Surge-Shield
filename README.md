@@ -5,9 +5,7 @@ Backend setup:
 
 pip install -r requirements.txt
 
-cd backend
-
-uvicorn main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8000
 
 Backend runs at: http://127.0.0.1:8000
 
